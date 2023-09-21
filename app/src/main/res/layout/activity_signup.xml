@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:background="#FFC736"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/comm"
+        android:layout_margin="10dp"
+        android:id="@+id/vc"
+        android:layout_marginTop="10dp"
+        ></ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal">
+        <androidx.cardview.widget.CardView
+            android:layout_width="400dp"
+            android:paddingTop="20dp"
+            android:layout_height="550dp"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First-Name"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/black"></TextView>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/fname1"
+                android:hint="First-Name"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="10dp"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last-Name"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="70dp"
+                android:textColor="@color/black"></TextView>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/lname1"
+                android:hint="Last-Name"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="50dp"></EditText>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact-no"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="110dp"
+                android:textColor="@color/black"></TextView>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cn1"
+                android:hint="Contact-no"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="90dp"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email_id"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="150dp"
+                android:textColor="@color/black"></TextView>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/email1"
+                android:hint="Email_id"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="130dp"></EditText>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"></TextView>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pass1"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="180dp"></EditText>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Confirm Pass"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="250dp"
+                android:textColor="@color/black"></TextView>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cpass1"
+                android:hint="Confirm Pass"
+                android:inputType="textPassword"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="230dp"></EditText>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="110dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DOB"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="190dp"
+                    android:textColor="@color/black"></TextView>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/yy1"
+                    android:hint="Year"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="185dp"></EditText>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mm1"
+                    android:hint="Month"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="185dp"></EditText>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dd1"
+                    android:hint="Day"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="185dp"></EditText>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="110dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="District"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="240dp"
+                    android:textColor="@color/black"></TextView>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dis1"
+                    android:hint="District"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="235dp"></EditText>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="City"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="240dp"
+                    android:textColor="@color/black"></TextView>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/city1"
+                    android:hint="City"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="235dp"></EditText>
+
+
+            </LinearLayout>
+            <Button
+                android:layout_marginTop="420dp"
+                android:layout_marginLeft="130dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign-up"
+                android:id="@+id/up"
+                android:textColor="@color/black"
+                android:backgroundTint="@android:color/darker_gray"
+
+                ></Button>
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "844861149292",
+    "project_id": "findmyway-4cdc4",
+    "storage_bucket": "findmyway-4cdc4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844861149292:android:10f1c643969ea27e2d8849",
+        "android_client_info": {
+          "package_name": "com.example.findmyway01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "844861149292-h9g3lm5euca50la58gqccjvbkbaompga.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.findmyway01",
+            "certificate_hash": "3b1dc2c277ad7bf0c0e9e8e81c1187de0aa458ae"
+          }
+        },
+        {
+          "client_id": "844861149292-5m8i262jehkuqj5slp23soevl9fsq6od.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBH40E6DHV5hFaIZH8UxSA4Zhg0z6sMSy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "844861149292-5m8i262jehkuqj5slp23soevl9fsq6od.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

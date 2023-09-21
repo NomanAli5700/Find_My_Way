@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#FFC736"
+    android:layout_height="match_parent"
+    tools:context=".View_user">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter employee id"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:fontFamily="cursive"
+        android:textSize="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center"></TextView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:paddingTop="0dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="70dp"
+            android:text="Employee No"
+            android:textColor="@color/black"></TextView>
+
+        <EditText
+            android:id="@+id/emp_id"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="50dp"
+            android:hint="Employee Number"></EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="100dp"
+            android:text="Organization"
+            android:textColor="@color/black"></TextView>
+
+        <EditText
+            android:id="@+id/orgo"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="90dp"
+            android:hint="Organization"></EditText>
+
+
+        <Button
+            android:id="@+id/del"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="150dp"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:text="View"
+            android:textColor="@color/black"></Button>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
